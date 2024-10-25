@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link href="./bootstrap.min.css" rel="stylesheet">
+    <link href="./style.css"   rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        
+
+        <form method="get" id="register-form">
+            <label for="name">Name:
+                <input type="text" name="name" id="name">
+            </label>
+           
+            <label for="email">Email:
+                <input type="email" name=" email" id="email">
+            </label>
+            
+            <label for="Phone">Phone:
+                <input type="tel" name="phone"  id="phone">
+            </label>
+           
+            <label for="Age">Age:
+                <input type="text" name="age" id="age">
+            </label>
+            
+            <label for="Gender">Gender:
+                <input type="text"   name="gender" id="gender" >
+            </label>
+           
+            <label for="Address">Address:
+                <input type="text"  name="address" id="address">
+            </label>
+            <button type="submit" value="submit">Submit</button>
+        </form>
+    </div>
+
+    <div id="error-message"></div>
+
+
+     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.21.0/jquery.validate.min.js"></script>
+     <script src="./script.js"></script>
+</body>
+</html>
